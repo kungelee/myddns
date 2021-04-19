@@ -11,10 +11,10 @@
 #include <error.h>
 int main(void)
 {
-	char ip[32]    = {0};          /*存IP地址*/
-	char http[]    = {"http://"};  /*存httt类型*/
-	char ip_port[] = {":8088"};    /*存端品号*/
-	char cmd[64]   = {0};          /*存拼接网址串*/
+	char ip[32]    = {0};          /*IP地址*/
+	char http[]    = {"http://"};  /*httt类型*/
+	char ip_port[] = {":8088"};    /*端口号*/
+	char cmd[64]   = {0};          /*拼接网址buf*/
 	
 	system("mode 64,16");
 	system("title Parsing IP address, please wait...");
